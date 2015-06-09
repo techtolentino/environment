@@ -1,3 +1,7 @@
+@import url(http://fonts.googleapis.com/css?family=Nobile:400,700);
 body {
+  padding: 0;
   margin: 0;
-  padding: 0; }
+  font-size: 16px;
+  font-family: 'Nobile', sans-serif;
+  box-sizing: border-box; }
