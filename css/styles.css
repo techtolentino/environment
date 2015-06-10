@@ -47,6 +47,18 @@ body {
       margin: 35px 50px; }
       .about.section .container .icon img {
         width: 130px; }
+    .about.section .container .start {
+      text-decoration: none;
+      background-color: #F83D70;
+      padding: 15px 30px;
+      color: #E9F8F5;
+      border-radius: 3px;
+      font-size: 1.2em;
+      margin: 20px;
+      display: block;
+      max-width: 110px;
+      margin: 0 auto;
+      margin-top: 150px; }
   .about.section h1 {
     padding-top: 15%;
     margin: 0;
