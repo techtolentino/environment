@@ -5,19 +5,35 @@ body {
 	margin: 0;
 	font-size: 16px;
 	font-family: 'Nobile', sans-serif;
-	box-sizing: border-box;
-	.section {
-		height: 100vh;
-	}
-	.title {
-	   text-align: center;
-		h1 {
-		   color: white;  /* Fallback: assume this color ON TOP of image */
-		   background: url(../img/plain.jpg) no-repeat;
-		   background-size: cover;
-		   -webkit-background-clip: text;
-		   -webkit-text-fill-color: transparent;
-		   font-size: 7em;
-		}
-	}
+}
+
+.section {
+	height: 100vh;
+}
+
+.splash.section {
+  background: url(../img/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  .title {
+  	padding-top: 15%;
+  	text-align: center;
+  	color: #FFFFFF;
+  	h1 {
+			font-size: 7em;
+			color: white;  /* Fallback: assume this color ON TOP of image */
+			background: url(../img/plain.jpg) no-repeat;
+			background-size: cover;
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			margin: 0;
+	 	}
+  }
+}
+
+.title {
+   text-align: center;
+
 }

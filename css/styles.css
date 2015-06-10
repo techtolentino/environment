@@ -3,17 +3,30 @@ body {
   padding: 0;
   margin: 0;
   font-size: 16px;
-  font-family: 'Nobile', sans-serif;
-  box-sizing: border-box; }
-  body .section {
-    height: 100vh; }
-  body .title {
-    text-align: center; }
-    body .title h1 {
+  font-family: 'Nobile', sans-serif; }
+
+.section {
+  height: 100vh; }
+
+.splash.section {
+  background: url(../img/bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+  .splash.section .title {
+    padding-top: 15%;
+    text-align: center;
+    color: #FFFFFF; }
+    .splash.section .title h1 {
+      font-size: 7em;
       color: white;
       /* Fallback: assume this color ON TOP of image */
       background: url(../img/plain.jpg) no-repeat;
       background-size: cover;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
-      font-size: 7em; }
+      margin: 0; }
+
+.title {
+  text-align: center; }
