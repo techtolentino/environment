@@ -17,8 +17,10 @@ body {
 	font-family: 'Nobile', sans-serif;
 }
 .section {
-	height: 100vh;
+	min-height: 100vh;
 }
+
+#logo {width: 95%; max-width: 1300px;}
 
 .splash.section {
   background: url(../img/bg.jpg) no-repeat center center fixed; 
@@ -26,8 +28,18 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  height: 100%;
+  .down-arrow {
+	  border-radius: 50%;
+	  border: 2px solid $orange;
+	  color: $orange;
+	  /* height: 1em; */
+	  padding: 0 15px;
+	  font-size: 3em;
+	  text-decoration: none;
+  }
   .title {
-  	padding-top: 20%; 
+  	padding-top: 13%; 
   	text-align: center;
   	color: #FFFFFF;
   	h1 {
@@ -50,6 +62,7 @@ body {
 	color: $night;
 	padding: 30px 0;
 	text-align: center;
+	height: 100%;
 	.container {
 		display: block;
 		margin: 0 auto;
