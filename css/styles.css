@@ -82,14 +82,56 @@ body {
   .list.section ul {
     list-style: none; }
     .list.section ul li {
-      padding: 15px;
+      text-align: left;
       width: 180px;
       display: inline-block;
       vertical-align: top;
-      background-color: #8DE9E3;
-      font-weight: bold; }
+      background-color: #FFFFFF;
+      font-weight: bold;
+      height: 310px; }
+      .list.section ul li h3 {
+        text-align: center; }
       .list.section ul li p {
-        font-weight: normal; }
+        font-weight: normal;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 0.8em; }
+  .list.section #apps {
+    background-color: #1D63BD;
+    padding: 10px 0;
+    margin-top: 0; }
+  .list.section .apps-list {
+    border: 1px solid #1D63BD; }
+  .list.section #web-tools {
+    background-color: #56BDBC;
+    padding: 10px 0;
+    margin-top: 0; }
+  .list.section .web-tools-list {
+    border: 1px solid #56BDBC; }
+  .list.section #packages {
+    background-color: #FC3225;
+    padding: 10px 0;
+    margin-top: 0; }
+  .list.section .packages-list {
+    border: 1px solid #FC3225; }
+  .list.section #terminal {
+    background-color: #8DE9E3;
+    padding: 10px 0;
+    margin-top: 0; }
+  .list.section .terminal-list {
+    border: 1px solid #8DE9E3; }
+  .list.section #visual {
+    background-color: #B9FD3E;
+    padding: 10px 0;
+    margin-top: 0; }
+  .list.section .visual-list {
+    border: 1px solid #B9FD3E; }
+  .list.section #tech-stack {
+    background-color: #F83D70;
+    padding: 10px 0;
+    margin-top: 0; }
+  .list.section .tech-stack-list {
+    border: 1px solid #F83D70; }
   .list.section .container {
     margin-top: 50px; }
   .list.section .title {
