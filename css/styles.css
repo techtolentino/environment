@@ -77,12 +77,27 @@ body {
     margin: 0;
     color: #1D63BD; }
 
-.list.section .title {
-  padding: 10px 0;
-  text-align: center;
-  color: #E9F8F5;
-  text-shadow: 2px 1px 2px #353535;
-  background: url(../img/banner_dark.jpg) no-repeat;
-  background-size: cover; }
-  .list.section .title h1 {
-    font-size: 2.5em; }
+.list.section {
+  text-align: center; }
+  .list.section ul {
+    list-style: none; }
+    .list.section ul li {
+      padding: 15px;
+      width: 180px;
+      display: inline-block;
+      vertical-align: top;
+      background-color: #8DE9E3;
+      font-weight: bold; }
+      .list.section ul li p {
+        font-weight: normal; }
+  .list.section .container {
+    margin-top: 50px; }
+  .list.section .title {
+    padding: 10px 0;
+    text-align: center;
+    color: #E9F8F5;
+    text-shadow: 2px 1px 2px #353535;
+    background: url(../img/banner_dark.jpg) no-repeat;
+    background-size: cover; }
+    .list.section .title h1 {
+      font-size: 2.5em; }

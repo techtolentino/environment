@@ -96,6 +96,24 @@ body {
 }
 
 .list.section {
+	text-align: center;
+	ul {
+		list-style: none;
+  	li {
+  		padding: 15px;
+  		width: 180px;
+  		display: inline-block;
+  		vertical-align: top;
+  		background-color: $sky;
+  		font-weight: bold;
+  		p {
+  			font-weight: normal;
+  		}
+  	}
+	}
+	.container {
+		margin-top: 50px;
+	}
 	.title {
 		padding: 10px 0;
 		text-align: center;
