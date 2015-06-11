@@ -31,13 +31,12 @@ body {
   background-size: cover;
   height: 100%;
   .down-arrow {
-	  border-radius: 50%;
-	  border: 2px solid $pink;
-	  color: $pink;
-	  /* height: 1em; */
 	  padding: 0 15px;
 	  font-size: 3em;
 	  text-decoration: none;
+	  img {
+	  	width: 50px;
+	  }
   }
   .title {
   	padding-top: 15%; 
