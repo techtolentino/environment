@@ -20,13 +20,11 @@ body {
   background-size: cover;
   height: 100%; }
   .splash.section .down-arrow {
-    border-radius: 50%;
-    border: 2px solid #F83D70;
-    color: #F83D70;
-    /* height: 1em; */
     padding: 0 15px;
     font-size: 3em;
     text-decoration: none; }
+    .splash.section .down-arrow img {
+      width: 50px; }
   .splash.section .title {
     padding-top: 15%;
     text-align: center;
