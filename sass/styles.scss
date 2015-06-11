@@ -177,6 +177,7 @@ body {
 	.container {
 		margin-top: 50px;
 	}
+
 	.title {
 		padding: 10px 0;
 		text-align: center;
@@ -185,7 +186,7 @@ body {
 		background: url(../img/banner_dark.jpg) no-repeat;
 		background-size: cover;
 		h1 {
-			font-size: 2.5em;
+			font-size: 2.25em;
 		}
 	}
 }
@@ -206,7 +207,7 @@ ________________________________*/
 }
 
 .footer-distributed{
-	background-color: #1F4770;
+	background-color: $night;
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 	box-sizing: border-box;
 	width: 100%;
@@ -384,4 +385,10 @@ ________________________________*/
 		margin-top: 20px !important;
 	}
 
+}
+
+@media (max-width: 400px) {
+	.list.section ul li {width: 90%;}
+	.about.section .container .icon {  margin: 35px 15px;}
+	.about.section .container .icon img {width: 60px;}
 }
