@@ -28,7 +28,7 @@ body {
     font-size: 3em;
     text-decoration: none; }
   .splash.section .title {
-    padding-top: 13%;
+    padding-top: 15%;
     text-align: center;
     color: #FFFFFF; }
     .splash.section .title h1 {
@@ -80,7 +80,8 @@ body {
 .list.section {
   text-align: center; }
   .list.section ul {
-    list-style: none; }
+    list-style: none;
+    padding-left: 0; }
     .list.section ul li {
       text-align: left;
       width: 180px;
@@ -88,7 +89,8 @@ body {
       vertical-align: top;
       background-color: #FFFFFF;
       font-weight: bold;
-      height: 310px; }
+      height: 310px;
+      margin-bottom: 20px; }
       .list.section ul li h3 {
         text-align: center; }
       .list.section ul li p {
@@ -101,37 +103,37 @@ body {
     padding: 10px 0;
     margin-top: 0; }
   .list.section .apps-list {
-    border: 1px solid #1D63BD; }
+    border: 3px solid #1D63BD; }
   .list.section #web-tools {
     background-color: #56BDBC;
     padding: 10px 0;
     margin-top: 0; }
   .list.section .web-tools-list {
-    border: 1px solid #56BDBC; }
+    border: 3px solid #56BDBC; }
   .list.section #packages {
     background-color: #FC3225;
     padding: 10px 0;
     margin-top: 0; }
   .list.section .packages-list {
-    border: 1px solid #FC3225; }
+    border: 3px solid #FC3225; }
   .list.section #terminal {
     background-color: #8DE9E3;
     padding: 10px 0;
     margin-top: 0; }
   .list.section .terminal-list {
-    border: 1px solid #8DE9E3; }
+    border: 3px solid #8DE9E3; }
   .list.section #visual {
     background-color: #B9FD3E;
     padding: 10px 0;
     margin-top: 0; }
   .list.section .visual-list {
-    border: 1px solid #B9FD3E; }
+    border: 3px solid #B9FD3E; }
   .list.section #tech-stack {
     background-color: #F83D70;
     padding: 10px 0;
     margin-top: 0; }
   .list.section .tech-stack-list {
-    border: 1px solid #F83D70; }
+    border: 3px solid #F83D70; }
   .list.section .container {
     margin-top: 50px; }
   .list.section .title {
