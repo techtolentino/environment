@@ -94,7 +94,9 @@ body {
       background-color: #FAFFFF;
       font-weight: bold;
       min-height: 260px;
-      margin: 20px 10px; }
+      margin: 20px 10px; 
+      border-radius: 3px;
+    }
       .list.section ul li h3 {
         text-align: center; }
       .list.section ul li p {
