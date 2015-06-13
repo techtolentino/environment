@@ -75,10 +75,17 @@ body {
     color: #1D63BD; }
 
 .list.section {
-  text-align: center; }
+  text-align: center; 
+  background: url(../img/clouds.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
   .list.section ul {
     list-style: none;
-    padding-left: 0; }
+    padding-left: 0; 
+    margin-bottom: 0;}
     .list.section ul li {
       text-align: left;
       width: 180px;
@@ -173,7 +180,6 @@ ________________________________*/
   width: 100%;
   text-align: left;
   padding: 30px 80px;
-  margin-top: 80px;
   color: #FFFFFF; }
 
 .footer-distributed .footer-left,
